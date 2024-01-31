@@ -3,13 +3,76 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a:first-of-type {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
 </head>
 
-<body class="bg-slate-900">
-  <div id="app"></div>
+<body class="bg-fem-Off-Black inter text-white group">
+
+  <main
+    class=" m-auto flex flex-col bg-fem-Dark-Grey rounded-lg w-full max-w-[21rem] md:max-w-96 px-4 py-5 md:py-[1.8rem]">
+    <header class=" flex-col flex gap-2 justify-center items-center">
+      <figure class="w-[5.5rem]">
+        <img src="./assets/avatar-jessica.jpeg" alt="image of Jessica" class="w-full object-cover rounded-full" />
+      </figure>
+      <div class="mt-5">
+        <h1 class="font-semibold text-center text-2xl  tracking-normal">Jessica Randall</h1>
+        <p class="mt-1 font-bold text-sm text-center text-fem-primary-green">London, United Kingdom</p>
+      </div>
+      <h2 class="text-center text-sm mt-5  tracking-normal">"Front-end developer and avid reader."</h2>
+    </header>
+    <ul class="flex flex-col   gap-4 w-full mt-7 px-2 pb-2 md:px-4">
+      <a href="https://github.com/toonchavez8" target="_blank"
+        class="bg-fem-Grey py-[.80rem] hover:bg-fem-primary-green hover:text-fem-Off-Black rounded-lg">
+        <li class="w-full  text-center text-sm font-semibold ">
+          GitHub
+        </li>
+      </a>
+      <a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank"
+        class="bg-fem-Grey py-[.80rem] hover:bg-fem-primary-green hover:text-fem-Off-Black rounded-lg">
+        <li class="w-full  text-center text-sm font-semibold ">
+          Frontend Mentor
+        </li>
+      </a>
+      <a href="https://www.linkedin.com/in/toonchavez8/" target="_blank"
+        class="bg-fem-Grey py-[.80rem] hover:bg-fem-primary-green hover:text-fem-Off-Black rounded-lg">
+        <li class="w-full  text-center text-sm font-semibold ">
+          LinkedIn
+        </li>
+      </a>
+      <a href="https://www.threads.net/@toonchavez" target="_blank"
+        class="bg-fem-Grey py-[.80rem] hover:bg-fem-primary-green hover:text-fem-Off-Black rounded-lg">
+        <li class="w-full  text-center text-sm font-semibold ">
+          Twitter
+        </li>
+      </a>
+      <a href="https://www.instagram.com/toonchavez/" target="_blank"
+        class="bg-fem-Grey py-[.80rem] hover:bg-fem-primary-green hover:text-fem-Off-Black rounded-lg">
+        <li class="w-full  text-center text-sm font-semibold ">
+          Instagram
+        </li>
+      </a>
+    </ul>
+
+  </main>
+  <footer class=" overflow-hidden">
+    <div class="attribution translate-y-10 group-hover:translate-y-0 text-xs">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/toonchavez8" target="_blank" class="text-fem-primary-green">toonchavez8</a>.
+    </div>
+  </footer>
   <script type="module" src="./js/main.js"></script>
 </body>
 
